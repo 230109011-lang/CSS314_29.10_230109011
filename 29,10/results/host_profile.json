@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-10-29T07:57:33+00:00",
+  "cpu": {
+    "model_name": "AMD Ryzen 9 6900HX with Radeon Graphics",
+    "vendor": "AMD",
+    "cpuid": {
+      "family": 25,
+      "model": 68,
+      "stepping": 1,
+      "vendor_id": "AuthenticAMD"
+    },
+    "microarchitecture": "Zen 3+",
+    "base_frequency_mhz": 3301.0,
+    "base_frequency_source": "WMI Win32_Processor.MaxClockSpeed",
+    "max_frequency_mhz": null,
+    "sockets": 1,
+    "physical_cores": 8,
+    "logical_processors": 16,
+    "threads_per_core": 2.0,
+    "smt_enabled": true,
+    "smt_capable_cores": 8,
+    "hybrid_core_types": null,
+    "topology_source": "Win32 GetLogicalProcessorInformationEx"
+  },
+  "cache_summary": {
+    "l1d_bytes": 32768,
+    "l2_bytes": 524288,
+    "l3_bytes": 16777216,
+    "l3_total_bytes": 16777216,
+    "cache_line_bytes": 64,
+    "cache_line_source": "detected",
+    "note": "Sizes are per instance (per core / per cluster / per L3 slice group)."
+  },
+  "caches": {
+    "L1d": {
+      "size_bytes": 32768,
+      "size_human": "32 KiB",
+      "line_size_bytes": 64,
+      "associativity": 8,
+      "logical_cpus_sharing": 2,
+      "instances": 8,
+      "total_bytes": 262144,
+      "total_human": "256 KiB",
+      "heterogeneous": false
+    },
+    "L1i": {
+      "size_bytes": 32768,
+      "size_human": "32 KiB",
+      "line_size_bytes": 64,
+      "associativity": 8,
+      "logical_cpus_sharing": 2,
+      "instances": 8,
+      "total_bytes": 262144,
+      "total_human": "256 KiB",
+      "heterogeneous": false
+    },
+    "L2": {
+      "size_bytes": 524288,
+      "size_human": "512 KiB",
+      "line_size_bytes": 64,
+      "associativity": 8,
+      "logical_cpus_sharing": 2,
+      "instances": 8,
+      "total_bytes": 4194304,
+      "total_human": "4 MiB",
+      "heterogeneous": false
+    },
+    "L3": {
+      "size_bytes": 16777216,
+      "size_human": "16 MiB",
+      "line_size_bytes": 64,
+      "associativity": 16,
+      "logical_cpus_sharing": 16,
+      "instances": 1,
+      "total_bytes": 16777216,
+      "total_human": "16 MiB",
+      "heterogeneous": false
+    }
+  },
+  "memory": {
+    "total_bytes": 16388005888,
+    "total_human": "15628.8 MiB"
+  },
+  "os": {
+    "system": "Windows",
+    "release": "10",
+    "version": "10.0.26300",
+    "kernel_version": "10.0.26300.9711",
+    "machine": "AMD64",
+    "platform": "Windows-10-10.0.26300-SP0",
+    "product": "Windows 11",
+    "build": 26300,
+    "display_version": "26H2",
+    "edition": "Professional"
+  },
+  "python": {
+    "implementation": "CPython",
+    "version": "3.11.9",
+    "version_full": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "compiler": "MSC v.1938 64 bit (AMD64)",
+    "build": [
+      "tags/v3.11.9:de54cf5",
+      "Apr  2 2024 10:12:12"
+    ],
+    "cache_tag": "cpython-311",
+    "executable": "C:\\Users\\merey\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "pointer_bits": 64,
+    "byteorder": "little",
+    "gil_enabled": true,
+    "packages": {
+      "numpy": "2.4.6",
+      "scipy": null,
+      "psutil": "7.2.2",
+      "py-cpuinfo": null,
+      "numba": "0.68.0"
+    }
+  },
+  "warnings": [],
+  "fingerprint": {
+    "sha256": "ae24936794d9d7c267e497d071432a09b1fad0ef8d0592fe691aa10876e905c9",
+    "salt": "ae24936794d9d7c2",
+    "basis": {
+      "cpu": [
+        "AMD Ryzen 9 6900HX with Radeon Graphics",
+        "Zen 3+",
+        8,
+        16
+      ],
+      "cache": [
+        32768,
+        524288,
+        16777216,
+        64
+      ],
+      "os": [
+        "Windows",
+        "10.0.26300.9711"
+      ],
+      "python": [
+        "CPython",
+        "3.11.9"
+      ]
+    }
+  }
+}
